@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box; /* so if we add any padding or any border on to an element it wont affect the width of it */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex; /* bc want to center everything */
+  flex-direction: column; /*make elements stack vertically */
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* take up the entire height of the viewport(browser) */
+  margin: 0;
+  overflow: hidden; /*dont want scrollbars to be shown by default */
+}
+
+.testing {
+  background-color: red;
+}
